@@ -560,7 +560,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213206861}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.83, y: 0.39, z: 0.53}
+  m_LocalPosition: {x: 15.83, y: 0, z: 0.53}
   m_LocalScale: {x: 0.55686, y: 0.55686, z: 0.55686}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1124,7 +1124,6 @@ GameObject:
   - component: {fileID: 2046491372}
   - component: {fileID: 2046491371}
   - component: {fileID: 2046491370}
-  - component: {fileID: 2046491374}
   m_Layer: 5
   m_Name: Mini-map Canvas
   m_TagString: Untagged
@@ -1213,20 +1212,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &2046491374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046491369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c22a53477e27d3f489006e8ece685df4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topDownCamera: {fileID: 0}
-  navTargetObject: {fileID: 0}
 --- !u!1001 &2140440201
 PrefabInstance:
   m_ObjectHideFlags: 0
